@@ -1,7 +1,7 @@
 const Handlebars = require('handlebars');
 const fs = require('fs');
 const pnfs = require("pn/fs");
-const svg2png = require("svg2png");
+const sharp = require("sharp");
 
 const MAP_TEMPLATE = 'maps/templates/_map-world-template.svg';
 const DEST_DIR_SVG = 'maps/';
@@ -114,11 +114,17 @@ function renderMap (country) {
     process.stdout.write('.');
 
     var input = fs.readFileSync(dest_svg_filename);
-    var output = svg2png.sync(input);
-    process.stdout.write('.');
-    fs.writeFileSync(dest_png_filename, output);
-    process.stdout.write('.');
-    console.log('done!');
+
+    return sharp(input).png().toBuffer().then(function (output) {
+        fs.writeFileSync(dest_png_filename, output);
+        console.log('done!');
+    });
+}
+
+async function generateAllCountries() {
+    for (var country of mapdata.countries) {
+        await renderMap(country);
+    }
 }
 
 // First get a count of how many we need to generate
@@ -131,7 +137,4 @@ for (var country of mapdata.countries) {
 }
 console.log(count + " maps to generate.");
 
-// Generate them!
-for (var country of mapdata.countries) {
-    renderMap(country);
-}
+generateAllCountries();
