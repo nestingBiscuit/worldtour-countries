@@ -42,17 +42,16 @@ var default_context = {
 };
 
 const regionMaps = new Map();
-const GENERATE_REGION_MAPS = true
+const REGION_CSV = DEST_DIR_PNG + 'regions.csv'
 
-function renderMap (country) {
+async function renderMap (country, regionOnly = false) {
     var dest_svg_filename = DEST_DIR_SVG + 'world-' + country.name + '-map.svg';
     var dest_png_filename = DEST_DIR_PNG + 'world-' + country.name + '-map.png';
 
     // If the png already exists, skip
-    if (fs.existsSync(dest_png_filename)) {
+    if (!regionOnly && fs.existsSync(dest_png_filename)) {
         return;
     }
-    process.stdout.write(" - " + country.name + "...");
 
     // Doing it this way to get fresh context obj each pass.
     var context = JSON.parse(JSON.stringify(default_context));
@@ -88,22 +87,32 @@ function renderMap (country) {
     }
 
     // Generate region maps without highlighed country
-    if (GENERATE_REGION_MAPS){
+    if (regionOnly){
+        // check if region has already been saved
         if (!regionMaps.has(context.viewBox)){
             regionNum = regionMaps.size + 1
             const dest_reg_svg_filename = DEST_DIR_SVG + 'reg-' + regionNum + '.svg';
             const dest_reg_png_filename = DEST_DIR_PNG + 'reg-' +  regionNum + '.png';
-            render_png(context, dest_reg_svg_filename, dest_reg_png_filename)
-            regionMaps.set(context.viewBox, dest_reg_png_filename)
+            regionMaps.set(context.viewBox, dest_reg_png_filename.split("/").pop())
+            if(!fs.existsSync(dest_reg_png_filename)){
+                result = render_png(context, dest_reg_svg_filename, dest_reg_png_filename)
+            } else {
+                result = null
+            }
+
         } 
+        // Write csv with region for each country
         try {
-            line = country.name + ',' + regionMaps.get(context.viewBox) + '\n'
-            fs.appendFileSync(DEST_DIR_PNG + 'regions.txt', line);
+            img_tag = `"<img src=""${regionMaps.get(context.viewBox)}"" />"`
+            line = country.name.replace(',', '') + ',' + img_tag + '\n'
+            fs.appendFileSync(REGION_CSV, line);
             //console.log(line)
             // file written successfully
         } catch (err) {
             console.error(err);
         }
+        return result
+        // Returns without generating the country highlight
     }
     
 
@@ -126,37 +135,72 @@ function renderMap (country) {
         context.overrideCss += css;
     }
 
-    render_png(context, dest_svg_filename, dest_png_filename)
+    return render_png(context, dest_svg_filename, dest_png_filename)
 
 }
 
-function render_png(context, dest_svg_filename, dest_png_filename){
+async function render_png(context, dest_svg_filename, dest_png_filename){
     var template = Handlebars.compile(source);
-    process.stdout.write('.');
 
     // Generate the SVG with context updates
     var generated = template(context);
-    process.stdout.write('.');
 
     fs.writeFileSync(dest_svg_filename, generated);
-    process.stdout.write('.');
 
     var input = fs.readFileSync(dest_svg_filename);
 
     return sharp(input).png().toBuffer().then(function (output) {
         fs.writeFileSync(dest_png_filename, output);
-        console.log('done!');
     });
 }
 
-async function generateAllCountries() {
+// Render region pngs without country highlighs.
+async function renderRegions(){
+    console.log("Redering regions")
+    fs.unlink(REGION_CSV, (err) => {
+        if (err) throw err;
+    });
+    var count = 0
     for (var country of mapdata.countries) {
-        await renderMap(country);
+        await renderMap(country, true);  // True = region only
+        count++
+        process.stdout.clearLine();
+        process.stdout.cursorTo(0);
+        process.stdout.write(`Progress: ${Math.floor(count / mapdata.countries.length * 100)}%`)
     }
+    console.log()
+
+}
+const CONCURRENCY = 8;
+async function generateAllCountries() {
+
+    await renderRegions();
+    console.log("Rendering maps")
+
+    var queue = mapdata.countries.slice();
+    var workers = [];
+
+    for (var w = 0; w < CONCURRENCY; w++) {
+        workers.push((async function worker() {
+            var country;
+            while ((country = queue.shift())) {
+                await renderMap(country);
+                count_done += 1
+                const progressPercentage = Math.floor(count_done / mapdata.countries.length * 100) ;
+                process.stdout.clearLine();
+                process.stdout.cursorTo(0);
+                process.stdout.write(`Progress: ${progressPercentage}% ${count_done}/${mapdata.countries.length}`);
+
+            }
+        })());
+    }
+
+    await Promise.all(workers);
 }
 
 // First get a count of how many we need to generate
 var count = 0;
+var count_done = 0
 for (var country of mapdata.countries) {
     var dest_png_filename = DEST_DIR_PNG + 'world-' + country.name + '-map.png';
     if (!fs.existsSync(dest_png_filename)) {
@@ -165,4 +209,4 @@ for (var country of mapdata.countries) {
 }
 console.log(count + " maps to generate.");
 
-generateAllCountries();
+generateAllCountries()
