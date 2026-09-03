@@ -41,6 +41,9 @@ var default_context = {
   }
 };
 
+const regionMaps = new Map();
+const GENERATE_REGION_MAPS = true
+
 function renderMap (country) {
     var dest_svg_filename = DEST_DIR_SVG + 'world-' + country.name + '-map.svg';
     var dest_png_filename = DEST_DIR_PNG + 'world-' + country.name + '-map.png';
@@ -51,7 +54,6 @@ function renderMap (country) {
     }
     process.stdout.write(" - " + country.name + "...");
 
-    var template = Handlebars.compile(source);
     // Doing it this way to get fresh context obj each pass.
     var context = JSON.parse(JSON.stringify(default_context));
 
@@ -64,18 +66,6 @@ function renderMap (country) {
         if (mapdata.regions[country.vbregion].height) {
             context.height = mapdata.regions[country.vbregion].height;
         }
-    }
-
-    // Highlight any targeted class names (codes)
-    if (country.codes) {
-        for (var code of country.codes) {
-            context.overrideCss += "." + code + "{ fill:" + COLOR_PINK + ";}\n"; 
-        }
-    }
-
-    // Highlight single targeted country class name (code)
-    if (country.code) {
-        context.overrideCss += "." + country.code + "{ fill:" + COLOR_PINK + ";}\n"; 
     }
 
     if (country.in) {
@@ -97,6 +87,38 @@ function renderMap (country) {
         context.viewBox = country.viewBox;
     }
 
+    // Generate region maps without highlighed country
+    if (GENERATE_REGION_MAPS){
+        if (!regionMaps.has(context.viewBox)){
+            regionNum = regionMaps.size + 1
+            const dest_reg_svg_filename = DEST_DIR_SVG + 'reg-' + regionNum + '.svg';
+            const dest_reg_png_filename = DEST_DIR_PNG + 'reg-' +  regionNum + '.png';
+            render_png(context, dest_reg_svg_filename, dest_reg_png_filename)
+            regionMaps.set(context.viewBox, dest_reg_png_filename)
+        } 
+        try {
+            line = country.name + ',' + regionMaps.get(context.viewBox) + '\n'
+            fs.appendFileSync(DEST_DIR_PNG + 'regions.txt', line);
+            //console.log(line)
+            // file written successfully
+        } catch (err) {
+            console.error(err);
+        }
+    }
+    
+
+    // Highlight any targeted class names (codes)
+    if (country.codes) {
+        for (var code of country.codes) {
+            context.overrideCss += "." + code + "{ fill:" + COLOR_PINK + ";}\n"; 
+        }
+    }
+
+    // Highlight single targeted country class name (code)
+    if (country.code) {
+        context.overrideCss += "." + country.code + "{ fill:" + COLOR_PINK + ";}\n"; 
+    }
+
     // If we need to circle the country, do so
     if (country.circle) {
         var css = "#" + country.circle + CSS_CIRCLE_LAND
@@ -104,6 +126,12 @@ function renderMap (country) {
         context.overrideCss += css;
     }
 
+    render_png(context, dest_svg_filename, dest_png_filename)
+
+}
+
+function render_png(context, dest_svg_filename, dest_png_filename){
+    var template = Handlebars.compile(source);
     process.stdout.write('.');
 
     // Generate the SVG with context updates
