@@ -6,17 +6,17 @@ and flags of countries and territories of the world.
 ## Changes in this fork
 - Changed outdated svg2png dependency to sharp
 - Async generation of map images
-- Added region maps without the country highlighed, to allow finding the country in the given map.
+- Added region maps without the country highlighted, to allow finding the country in the given map.
 - Added UN tag, to be used with filter decks
 - Updated new country names
 - Added more descriptions
-- Removed duplicate notes, instead seperating card types in seperate decks
-
+- Removed duplicate notes, instead separating card types in separate decks
+- Bold country names
 ## Install into Anki
 
 The easiest way to get this into Anki is to open the .apkg file. This is a
 ready to go archive that will be imported directly into Anki. You can find this
-file on the [releases page of this repository](https://github.com/sumpygump/worldtour-countries/releases).
+file on the [releases page of this repository](https://github.com/nestingBiscuit/worldtour-countries/releases).
 
 You can download the deck from ankiweb as well here: https://ankiweb.net/shared/info/596859658
 
