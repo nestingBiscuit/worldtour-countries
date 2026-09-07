@@ -4,6 +4,7 @@ This repository is for generating the data for a WorldTour Anki deck for maps
 and flags of countries and territories of the world.
 
 ## Changes in this fork
+### 1.4
 - Changed outdated svg2png dependency to sharp
 - Async generation of map images
 - Added region maps without the country highlighted, to allow finding the country in the given map.
@@ -12,6 +13,8 @@ and flags of countries and territories of the world.
 - Added more descriptions
 - Removed duplicate notes, instead separating card types in separate decks
 - Bold country names
+### 1.5
+- More accuate UK borders between Scotland and Wales
 ## Install into Anki
 
 The easiest way to get this into Anki is to open the .apkg file. This is a
