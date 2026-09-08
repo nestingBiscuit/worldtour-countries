@@ -1,0 +1,50 @@
+{
+  "infoboxType": "dependency",
+  "shortDes": "dependency",
+  "name": "French Southern and Antarctic Lands",
+  "type": "Overseas territory",
+  "imageFlag": "Flag of the French Southern and Antarctic Lands.svg",
+  "flagSize": "130",
+  "flagLink": "Flag of the French Southern and Antarctic Lands",
+  "imageSeal": "Armoiries Terres australes et antarctiques françaises.svg",
+  "sealSize": "85",
+  "motto": "\"Liberté, égalité, fraternité\" (\"Liberty, equality, fraternity\")",
+  "anthem": [
+    "La Marseillaise",
+    "(\"The Marseillaise\")"
+  ],
+  "imageMap": "French Southern and Antarctic Lands in its region.svg",
+  "mapAlt": "Location of the French Southern and Antarctic Lands in the Indian Ocean",
+  "mapSize": "290px",
+  "subdivisionType": "Sovereign state",
+  "subdivisionName": "France",
+  "establishedTitle2": "Territorial status",
+  "establishedDate2": "6 August 1955",
+  "officialLanguages": "French",
+  "capital": [
+    "Saint-Pierre, Réunion",
+    "(headquarters, not geographically assigned)"
+  ],
+  "largestSettlementType": "settlement",
+  "largestSettlement": "Port-aux-Français",
+  "leaderTitle1": "President of the French Republic",
+  "leaderName1": "Emmanuel Macron",
+  "leaderTitle2": "Prefect, Administrator Superior",
+  "leaderName2": "Florence Jeanblanc-Risler",
+  "leaderTitle3": "Secretary General",
+  "leaderName3": "Amélie Puccinelli",
+  "legislature": "Advisory Council of the TAAF",
+  "areaKm2": "439,666.4",
+  "populationEstimate": 
+    "Officially 400~800 scientists and military personnel"
+  ,
+  "populationEstimateYear": "2020",
+  "currency": "Euro (€)",
+  "currencyCode": "EUR",
+  "utcOffsetList": "UTC+04:00, UTC+05:00, UTC+10:00",
+  "drivesOn": "right",
+  "isoCode": "TF, FR-TF",
+  "cctld": ".tf",
+  "demonym": "French",
+  "sortName": "French Southern Territories"
+}

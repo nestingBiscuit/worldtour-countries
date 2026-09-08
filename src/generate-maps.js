@@ -3,11 +3,11 @@ const fs = require('fs');
 const pnfs = require("pn/fs");
 const sharp = require("sharp");
 
-const MAP_TEMPLATE = 'maps/templates/_map-world-template.svg';
-const DEST_DIR_SVG = 'maps/';
-const DEST_DIR_PNG = '../media/maps/';
+const MAP_TEMPLATE = 'src/maps/templates/_map-world-template.svg';
+const DEST_DIR_SVG = 'src/maps/';
+const DEST_DIR_PNG = 'media/maps/';
 
-const mapdata = require("./map-data.json");
+const mapdata = require("../src/map-data.json");
  
 var source = fs.readFileSync(MAP_TEMPLATE, 'utf8');
 
@@ -40,6 +40,18 @@ var default_context = {
       'oceania': COLOR_GREY, 
   }
 };
+
+function capitalizedCountryName(name){
+    return name.replaceAll('_', ' ')
+    .normalize("NFC")
+    .toLocaleLowerCase()
+    .split(/([\s(-]+)/)
+    .map(part => {
+      if (/^[\s(-]+$|^and$/.test(part)) return part;
+      return part.charAt(0).toLocaleUpperCase() + part.slice(1);
+    })
+    .join("");
+}
 
 const regionMaps = new Map();
 const REGION_CSV = DEST_DIR_PNG + 'regions.csv'
@@ -104,7 +116,7 @@ async function renderMap (country, regionOnly = false) {
         // Write csv with region for each country
         try {
             img_tag = `"<img src=""${regionMaps.get(context.viewBox)}"" />"`
-            line = country.name.replace(',', '') + ',' + img_tag + '\n'
+            line = capitalizedCountryName(country.name) + ';' + img_tag + '\n'
             fs.appendFileSync(REGION_CSV, line);
             //console.log(line)
             // file written successfully
@@ -114,8 +126,6 @@ async function renderMap (country, regionOnly = false) {
         return result
         // Returns without generating the country highlight
     }
-    
-
     // Highlight any targeted class names (codes)
     if (country.codes) {
         for (var code of country.codes) {
@@ -158,15 +168,15 @@ async function render_png(context, dest_svg_filename, dest_png_filename){
 async function renderRegions(){
     console.log("Redering regions")
     fs.unlink(REGION_CSV, (err) => {
-        if (err) throw err;
+        if (err && err.code !== "ENOENT") throw err;
     });
     var count = 0
     for (var country of mapdata.countries) {
         await renderMap(country, true);  // True = region only
         count++
-        process.stdout.clearLine();
-        process.stdout.cursorTo(0);
-        process.stdout.write(`Progress: ${Math.floor(count / mapdata.countries.length * 100)}%`)
+        // process.stdout.clearLine();
+        // process.stdout.cursorTo(0);
+        // process.stdout.write(`Progress: ${Math.floor(count / mapdata.countries.length * 100)}%`)
     }
     console.log()
 
@@ -187,15 +197,35 @@ async function generateAllCountries() {
                 await renderMap(country);
                 count_done += 1
                 const progressPercentage = Math.floor(count_done / mapdata.countries.length * 100) ;
-                process.stdout.clearLine();
-                process.stdout.cursorTo(0);
-                process.stdout.write(`Progress: ${progressPercentage}% ${count_done}/${mapdata.countries.length}`);
+                // process.stdout.clearLine();
+                // process.stdout.cursorTo(0);
+                // process.stdout.write(`Progress: ${progressPercentage}% ${count_done}/${mapdata.countries.length}`);
 
             }
         })());
     }
-
     await Promise.all(workers);
+    // Write map csv
+    const MAP_CSV = DEST_DIR_PNG + "maps.csv"
+    fs.unlink(MAP_CSV, (err) => {
+        if (err && err.code !== "ENOENT") throw err;
+    });
+    for (const country of mapdata.countries){
+        // Write csv with region for each country
+        try {
+            const dest_png_filename = 'world-' + country.name + '-map.png';
+            const img_tag = `"<img src=""${dest_png_filename}"" />"`
+            console.log(country)
+            line = capitalizedCountryName(country.name) + ';' + img_tag + '\n'
+            fs.appendFileSync(DEST_DIR_PNG + "maps.csv", line);
+            //console.log(line)
+            // file written successfully
+        } catch (err) {
+            throw err
+            console.error(err);
+        }
+        
+    }
 }
 
 // First get a count of how many we need to generate

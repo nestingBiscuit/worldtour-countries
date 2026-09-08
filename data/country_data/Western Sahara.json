@@ -1,0 +1,31 @@
+{
+  "infoboxType": "settlement",
+  "shortDes": "settlement",
+  "name": "Western Sahara",
+  "nativeName": [
+    "الصحراء الغربية",
+    "Sahara Occidental"
+  ],
+  "type": "Non-self-governing territory",
+  "shortDescription": "no",
+  "imageMap": "Western Sahara (orthographic projection).svg",
+  "mapCaption": "Location of Western Sahara (dark green) in Africa",
+  "subdivisionType": "Status",
+  "subdivisionName": "Non-self-governing territory under partial Moroccan military occupation",
+  "subdivisionType1": "Legitimate representative",
+  "subdivisionName1": "Polisario Front",
+  "subdivisionType2": "Administering power",
+  "subdivisionName2": "Spain (de jure)",
+  "subdivisionType3": "Claimants",
+  "subdivisionName3": "Morocco, Sahrawi Arab Democratic Republic",
+  "seatType": "Largest city",
+  "seat": "Laayoune",
+  "unitPref": "Metric",
+  "areaTotalKm2": "272,000",
+  "populationDensityKm2": "2.03",
+  "populationEstimate": "565,581",
+  "populationEstimateYear": "2021",
+  "utcOffset": "+01:00",
+  "isoCode": "EH",
+  "sortName": "Western Sahara"
+}

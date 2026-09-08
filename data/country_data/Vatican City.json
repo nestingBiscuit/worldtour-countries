@@ -1,0 +1,69 @@
+{
+  "infoboxType": "country",
+  "conventionalLongName": "Vatican City State",
+  "nativeName": "Stato della Città del VaticanoStatus Civitatis Vaticanae",
+  "flagWidth": "100",
+  "imageCoat": "Coat of arms of Vatican City State - 2023 version.svg",
+  "symbolWidth": "85px",
+  "coaSize": "1000",
+  "symbolType": "Coat of arms",
+  "commonName": "Vatican City",
+  "otherSymbol": "National Seal of Vatican City",
+  "otherSymbolType": "National Seal",
+  "nationalAnthem": [
+    "Inno Pontificio",
+    "\"Pontifical Hymn\""
+  ],
+  "mapWidth": "250px",
+  "mapCaption": "Location of the Vatican City in Europe",
+  "capital": [
+    "Vatican City",
+    "(city-state)"
+  ],
+  "officialLanguages": "Italian",
+  "languagesType": "National language",
+  "languages": [
+    "Italian (de facto)",
+    "Latin (de jure at Holy See)"
+  ],
+  "governmentType": "Unitary theocratic elective absolute monarchy",
+  "leaderTitle1": "Sovereign entity",
+  "leaderName1": "Holy See",
+  "leaderTitle2": "Pope",
+  "leaderTitle3": "President of the Governorate",
+  "leaderName3": "Raffaella Petrini",
+  "legislature": "Pontifical Commission",
+  "sovereigntyType": "Establishment",
+  "establishedEvent1": "Lateran Treaty",
+  "establishedDate1": "11 February 1929",
+  "areaKm2": "0.49",
+  "areaRank": "195th",
+  "populationEstimate": "882",
+  "populationEstimateYear": "2024",
+  "populationEstimateRank": "195th",
+  "populationDensityKm2": "2205",
+  "populationDensitySqMi": "4662",
+  "populationDensityRank": "6th",
+  "currency": "Euro (€)",
+  "currencyCode": "EUR",
+  "timeZone": "CET",
+  "utcOffset": "+1",
+  "utcOffsetDst": "+2",
+  "timeZoneDst": "CEST",
+  "drivesOn": "right",
+  "callingCode": "+379",
+  "iso3166code": "VA",
+  "cctld": ".va",
+  "religion": [
+    "Catholicism",
+    "(state religion)"
+  ],
+  "demonym": [
+    "None (de jure)",
+    "Vatican (de facto)"
+  ],
+  "gdpPpp": "€14,859,970",
+  "gdpPppPerCapita": "€19,450.22",
+  "gdpPppYear": "2021",
+  "sortName": "Vatican City"
+}

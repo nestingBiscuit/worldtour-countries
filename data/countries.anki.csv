@@ -1,7 +1,7 @@
 Afghanistan;AF;;Kabul;"<img src=""world-afghanistan-flag.svg"" />";"<img src=""world-afghanistan-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
-Åland Islands;AX;an autonomous province of Finland;Mariehamn;"<img src=""world-åland_islands-flag.svg"" />";"<img src=""world-åland_islands-map.png"" />";"<img src=""reg-2.png"" />";Europe
-Albania;AL;;Tirana;"<img src=""world-albania-flag.svg"" />";"<img src=""world-albania-map.png"" />";"<img src=""reg-3.png"" />";Europe UN
-Algeria;DZ;;Algiers;"<img src=""world-algeria-flag.svg"" />";"<img src=""world-algeria-map.png"" />";"<img src=""reg-4.png"" />";Africa UN
+Albania;AL;;Tirana;"<img src=""world-albania-flag.svg"" />";"<img src=""world-albania-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+Algeria;DZ;;Algiers;"<img src=""world-algeria-flag.svg"" />";"<img src=""world-algeria-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+Åland Islands;AX;an autonomous province of Finland;Mariehamn;"<img src=""world-åland_islands-flag.svg"" />";"<img src=""world-åland_islands-map.png"" />";"<img src=""reg-4.png"" />";Europe
 American Samoa;AS;an unincorporated territory of the United States;Pago Pago;"<img src=""world-american_samoa-flag.svg"" />";"<img src=""world-american_samoa-map.png"" />";"<img src=""reg-5.png"" />";Oceania
 Andorra;AD;;Andorra la Vella;"<img src=""world-andorra-flag.svg"" />";"<img src=""world-andorra-map.png"" />";"<img src=""reg-6.png"" />";Europe UN
 Angola;AO;;Luanda;"<img src=""world-angola-flag.svg"" />";"<img src=""world-angola-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
@@ -13,7 +13,7 @@ Aruba;AW;a constituent country of the Kingdom of the Netherlands;Oranjestad;"<im
 Australia;AU;;Canberra;"<img src=""world-australia-flag.svg"" />";"<img src=""world-australia-map.png"" />";"<img src=""reg-5.png"" />";Oceania UN
 Austria;AT;;Vienna;"<img src=""world-austria-flag.svg"" />";"<img src=""world-austria-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
 Azerbaijan;AZ;;Baku;"<img src=""world-azerbaijan-flag.svg"" />";"<img src=""world-azerbaijan-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
-The Bahamas, Commonwealth of;BS;;Nassau;"<img src=""world-bahamas-flag.svg"" />";"<img src=""world-bahamas-map.png"" />";"<img src=""reg-9.png"" />";Central_America UN
+Bahamas, The;BS;;Nassau;"<img src=""world-the_bahamas-flag.svg"" />";"<img src=""world-bahamas,_the-map.png"" />";"<img src=""reg-9.png"" />";Central_America UN
 Bahrain;BH;;Manama;"<img src=""world-bahrain-flag.svg"" />";"<img src=""world-bahrain-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
 Bangladesh;BD;;Dhaka;"<img src=""world-bangladesh-flag.svg"" />";"<img src=""world-bangladesh-map.png"" />";"<img src=""reg-10.png"" />";East_Asia UN
 Barbados;BB;;Bridgetown;"<img src=""world-barbados-flag.svg"" />";"<img src=""world-barbados-map.png"" />";"<img src=""reg-9.png"" />";Central_America UN
@@ -50,7 +50,7 @@ Congo, Republic of the;CG;;Brazzaville;"<img src=""world-congo,_republic_of_the-
 Congo, Democratic Republic of the;CD;;Kinshasa;"<img src=""world-congo,_democratic_republic_of_the-flag.svg"" />";"<img src=""world-congo,_democratic_republic_of_the-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
 Cook Islands;CK;self-governing island country in free association with New Zealand;Avarua;"<img src=""world-cook_islands-flag.svg"" />";"<img src=""world-cook_islands-map.png"" />";"<img src=""reg-13.png"" />";Oceania
 Costa Rica;CR;;San José;"<img src=""world-costa_rica-flag.svg"" />";"<img src=""world-costa_rica-map.png"" />";"<img src=""reg-9.png"" />";Central_America UN
-Ivory Coast;CI;(Côte d’Ivoire);Yamoussoukro;"<img src=""world-côte_d'ivoire_(ivory_coast)-flag.svg"" />";"<img src=""world-côte_d'ivoire_(ivory_coast)-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+Ivory Coast;CI;(Côte d’Ivoire);Yamoussoukro;"<img src=""world-ivory_coast-flag.svg"" />";"<img src=""world-ivory_coast-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
 Croatia;HR;;Zagreb;"<img src=""world-croatia-flag.svg"" />";"<img src=""world-croatia-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
 Cuba;CU;;Havana;"<img src=""world-cuba-flag.svg"" />";"<img src=""world-cuba-map.png"" />";"<img src=""reg-9.png"" />";Central_America UN
 Curaçao;CW;(KUR-ə-sow) a constituent country within the Kingdom of the Netherlands;Willemstad;"<img src=""world-curaçao-flag.svg"" />";"<img src=""world-curaçao-map.png"" />";"<img src=""reg-9.png"" />";Central_America
@@ -77,7 +77,7 @@ French Guiana;GF;an overseas department and region of France;Cayenne;"<img src="
 French Polynesia;PF;an overseas collectivity of the French Republic;Papeete;"<img src=""world-french_polynesia-flag.svg"" />";"<img src=""world-french_polynesia-map.png"" />";"<img src=""reg-13.png"" />";Oceania
 French Southern Territories;TF;an overseas territory of France;Saint-Pierre;"<img src=""world-french_southern_territories-flag.svg"" />";"<img src=""world-french_southern_territories-map.png"" />";"<img src=""reg-14.png"" />";Africa
 Gabon;GA;;Libreville;"<img src=""world-gabon-flag.svg"" />";"<img src=""world-gabon-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
-The Gambia, Republic of;GM;;Banjul;"<img src=""world-gambia-flag.svg"" />";"<img src=""world-gambia-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+Gambia, The;GM;;Banjul;"<img src=""world-the_gambia-flag.svg"" />";"<img src=""world-gambia,_the-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
 Georgia;GE;;Tbilisi;"<img src=""world-georgia-flag.svg"" />";"<img src=""world-georgia-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
 Germany;DE;;Berlin;"<img src=""world-germany-flag.svg"" />";"<img src=""world-germany-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
 Ghana;GH;;Accra;"<img src=""world-ghana-flag.svg"" />";"<img src=""world-ghana-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
@@ -92,143 +92,143 @@ Guinea;GN;;Conakry;"<img src=""world-guinea-flag.svg"" />";"<img src=""world-gui
 Guinea-Bissau;GW;;Bissau;"<img src=""world-guinea-bissau-flag.svg"" />";"<img src=""world-guinea-bissau-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
 Guyana;GY;;Georgetown;"<img src=""world-guyana-flag.svg"" />";"<img src=""world-guyana-map.png"" />";"<img src=""reg-8.png"" />";South_America UN
 Haiti;HT;;Port-au-Prince;"<img src=""world-haiti-flag.svg"" />";"<img src=""world-haiti-map.png"" />";"<img src=""reg-9.png"" />";Central_America UN
-Vatican City;VA;a UN General Assembly non-member observer;Vatican City;"<img src=""world-vatican_city-flag.svg"" />";"<img src=""world-vatican_city-map.png"" />";"<img src=""reg-9.png"" />";Europe UN
-Honduras;HN;;Tegucigalpa;"<img src=""world-honduras-flag.svg"" />";"<img src=""world-honduras-map.png"" />";"<img src=""reg-17.png"" />";Central_America UN
-Hong Kong;HK;an autonomous territory of China;Hong Kong;"<img src=""world-hong_kong-flag.svg"" />";"<img src=""world-hong_kong-map.png"" />";"<img src=""reg-2.png"" />";East_Asia
+Honduras;HN;;Tegucigalpa;"<img src=""world-honduras-flag.svg"" />";"<img src=""world-honduras-map.png"" />";"<img src=""reg-9.png"" />";Central_America UN
+Hong Kong;HK;an autonomous territory of China;Hong Kong;"<img src=""world-hong_kong-flag.svg"" />";"<img src=""world-hong_kong-map.png"" />";"<img src=""reg-17.png"" />";East_Asia
 Hungary;HU;;Budapest;"<img src=""world-hungary-flag.svg"" />";"<img src=""world-hungary-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
-Iceland;IS;;Reykjavík;"<img src=""world-iceland-flag.svg"" />";"<img src=""world-iceland-map.png"" />";"<img src=""reg-10.png"" />";Europe UN
+Iceland;IS;;Reykjavík;"<img src=""world-iceland-flag.svg"" />";"<img src=""world-iceland-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
 India;IN;;New Delhi;"<img src=""world-india-flag.svg"" />";"<img src=""world-india-map.png"" />";"<img src=""reg-10.png"" />";East_Asia UN
-Indonesia;ID;;Jakarta;"<img src=""world-indonesia-flag.svg"" />";"<img src=""world-indonesia-map.png"" />";"<img src=""reg-1.png"" />";East_Asia UN
+Indonesia;ID;;Jakarta;"<img src=""world-indonesia-flag.svg"" />";"<img src=""world-indonesia-map.png"" />";"<img src=""reg-10.png"" />";East_Asia UN
 Iran;IR;;Tehran;"<img src=""world-iran-flag.svg"" />";"<img src=""world-iran-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
-Iraq;IQ;;Baghdad;"<img src=""world-iraq-flag.svg"" />";"<img src=""world-iraq-map.png"" />";"<img src=""reg-2.png"" />";West_Asia UN
-Ireland, Republic of;IE;;Dublin;"<img src=""world-ireland-flag.svg"" />";"<img src=""world-ireland-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
-Isle of Man;IM;a self-governing British Crown Dependency;Douglas;"<img src=""world-isle_of_man-flag.svg"" />";"<img src=""world-isle_of_man-map.png"" />";"<img src=""reg-1.png"" />";Europe
-Israel;IL;;Jerusalem;"<img src=""world-israel-flag.svg"" />";"<img src=""world-israel-map.png"" />";"<img src=""reg-2.png"" />";West_Asia UN
-Italy;IT;;Rome;"<img src=""world-italy-flag.svg"" />";"<img src=""world-italy-map.png"" />";"<img src=""reg-9.png"" />";Europe UN
-Jamaica;JM;;Kingston;"<img src=""world-jamaica-flag.svg"" />";"<img src=""world-jamaica-map.png"" />";"<img src=""reg-10.png"" />";Central_America UN
-Japan;JP;;Tokyo;"<img src=""world-japan-flag.svg"" />";"<img src=""world-japan-map.png"" />";"<img src=""reg-18.png"" />";East_Asia UN
-Jersey;JE;The Baileywick of Jersey, a British Crown dependency;Saint Helier;"<img src=""world-jersey-flag.svg"" />";"<img src=""world-jersey-map.png"" />";"<img src=""reg-1.png"" />";Europe
+Iraq;IQ;;Baghdad;"<img src=""world-iraq-flag.svg"" />";"<img src=""world-iraq-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
+Ireland;IE;;Dublin;"<img src=""world-ireland,_republic_of-flag.svg"" />";"<img src=""world-ireland-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+Isle of Man;IM;a self-governing British Crown Dependency;Douglas;"<img src=""world-isle_of_man-flag.svg"" />";"<img src=""world-isle_of_man-map.png"" />";"<img src=""reg-2.png"" />";Europe
+Israel;IL;;Jerusalem;"<img src=""world-israel-flag.svg"" />";"<img src=""world-israel-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
+Italy;IT;;Rome;"<img src=""world-italy-flag.svg"" />";"<img src=""world-italy-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+Jamaica;JM;;Kingston;"<img src=""world-jamaica-flag.svg"" />";"<img src=""world-jamaica-map.png"" />";"<img src=""reg-9.png"" />";Central_America UN
+Japan;JP;;Tokyo;"<img src=""world-japan-flag.svg"" />";"<img src=""world-japan-map.png"" />";"<img src=""reg-10.png"" />";East_Asia UN
+Jersey;JE;The Baileywick of Jersey, a British Crown dependency;Saint Helier;"<img src=""world-jersey-flag.svg"" />";"<img src=""world-jersey-map.png"" />";"<img src=""reg-18.png"" />";Europe
 Jordan;JO;;Amman;"<img src=""world-jordan-flag.svg"" />";"<img src=""world-jordan-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
-Kazakhstan;KZ;;Astana;"<img src=""world-kazakhstan-flag.svg"" />";"<img src=""world-kazakhstan-map.png"" />";"<img src=""reg-3.png"" />";West_Asia UN
-Kenya;KE;;Nairobi;"<img src=""world-kenya-flag.svg"" />";"<img src=""world-kenya-map.png"" />";"<img src=""reg-5.png"" />";Africa UN
-Kiribati;KI;;Tarawa;"<img src=""world-kiribati-flag.svg"" />";"<img src=""world-kiribati-map.png"" />";"<img src=""reg-10.png"" />";Oceania UN
+Kazakhstan;KZ;;Astana;"<img src=""world-kazakhstan-flag.svg"" />";"<img src=""world-kazakhstan-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
+Kenya;KE;;Nairobi;"<img src=""world-kenya-flag.svg"" />";"<img src=""world-kenya-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+Kiribati;KI;;Tarawa;"<img src=""world-kiribati-flag.svg"" />";"<img src=""world-kiribati-map.png"" />";"<img src=""reg-5.png"" />";Oceania UN
 North Korea;KP;;Pyongyang;"<img src=""world-north_korea-flag.svg"" />";"<img src=""world-north_korea-map.png"" />";"<img src=""reg-10.png"" />";East_Asia UN
-South Korea;KR;;Seoul;"<img src=""world-south_korea-flag.svg"" />";"<img src=""world-south_korea-map.png"" />";"<img src=""reg-2.png"" />";East_Asia UN
-Kosovo;XK;a disputed territory and partially recognised state;Priština;"<img src=""world-kosovo-flag.svg"" />";"<img src=""world-kosovo-map.png"" />";"<img src=""reg-1.png"" />";Europe
+South Korea;KR;;Seoul;"<img src=""world-south_korea-flag.svg"" />";"<img src=""world-south_korea-map.png"" />";"<img src=""reg-10.png"" />";East_Asia UN
+Kosovo;XK;a disputed territory and partially recognised state;Priština;"<img src=""world-kosovo-flag.svg"" />";"<img src=""world-kosovo-map.png"" />";"<img src=""reg-2.png"" />";Europe
 Kuwait;KW;;Kuwait City;"<img src=""world-kuwait-flag.svg"" />";"<img src=""world-kuwait-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
-Kyrgyzstan;KG;;Bishkek;"<img src=""world-kyrgyzstan-flag.svg"" />";"<img src=""world-kyrgyzstan-map.png"" />";"<img src=""reg-10.png"" />";West_Asia UN
-Laos;LA;;Vientiane;"<img src=""world-laos-flag.svg"" />";"<img src=""world-laos-map.png"" />";"<img src=""reg-2.png"" />";East_Asia UN
-Latvia;LV;;Riga;"<img src=""world-latvia-flag.svg"" />";"<img src=""world-latvia-map.png"" />";"<img src=""reg-1.png"" />";Europe UN
-Lebanon;LB;;Beirut;"<img src=""world-lebanon-flag.svg"" />";"<img src=""world-lebanon-map.png"" />";"<img src=""reg-3.png"" />";West_Asia UN
+Kyrgyzstan;KG;;Bishkek;"<img src=""world-kyrgyzstan-flag.svg"" />";"<img src=""world-kyrgyzstan-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
+Laos;LA;;Vientiane;"<img src=""world-laos-flag.svg"" />";"<img src=""world-laos-map.png"" />";"<img src=""reg-10.png"" />";East_Asia UN
+Latvia;LV;;Riga;"<img src=""world-latvia-flag.svg"" />";"<img src=""world-latvia-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+Lebanon;LB;;Beirut;"<img src=""world-lebanon-flag.svg"" />";"<img src=""world-lebanon-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
 Lesotho;LS;;Maseru;"<img src=""world-lesotho-flag.svg"" />";"<img src=""world-lesotho-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
 Liberia;LR;;Monrovia;"<img src=""world-liberia-flag.svg"" />";"<img src=""world-liberia-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
-Libya;LY;;Tripoli;"<img src=""world-libya-flag.svg"" />";"<img src=""world-libya-map.png"" />";"<img src=""reg-6.png"" />";Africa UN
-Liechtenstein;LI;;Vaduz;"<img src=""world-liechtenstein-flag.svg"" />";"<img src=""world-liechtenstein-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+Libya;LY;;Tripoli;"<img src=""world-libya-flag.svg"" />";"<img src=""world-libya-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+Liechtenstein;LI;;Vaduz;"<img src=""world-liechtenstein-flag.svg"" />";"<img src=""world-liechtenstein-map.png"" />";"<img src=""reg-6.png"" />";Europe UN
 Lithuania;LT;;Vilnius;"<img src=""world-lithuania-flag.svg"" />";"<img src=""world-lithuania-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
-Luxembourg;LU;;Luxembourg;"<img src=""world-luxembourg-flag.svg"" />";"<img src=""world-luxembourg-map.png"" />";"<img src=""reg-17.png"" />";Europe UN
-Macao;MO;an autonomous territory of China;Macao;"<img src=""world-macao-flag.svg"" />";"<img src=""world-macao-map.png"" />";"<img src=""reg-2.png"" />";East_Asia
-North Macedonia;MK;Name was changed from The former Yugoslav Republic of Macedonia on 11 February 2019.;Skopje;"<img src=""world-macedonia-flag.svg"" />";"<img src=""world-macedonia-map.png"" />";"<img src=""reg-3.png"" />";Europe UN
+Luxembourg;LU;;Luxembourg;"<img src=""world-luxembourg-flag.svg"" />";"<img src=""world-luxembourg-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+Macao;MO;an autonomous territory of China;Macao;"<img src=""world-macao-flag.svg"" />";"<img src=""world-macao-map.png"" />";"<img src=""reg-17.png"" />";East_Asia
+North Macedonia;MK;Name was changed from The former Yugoslav Republic of Macedonia on 11 February 2019.;Skopje;"<img src=""world-north_macedonia-flag.svg"" />";"<img src=""world-north_macedonia-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
 Madagascar;MG;;Antananarivo;"<img src=""world-madagascar-flag.svg"" />";"<img src=""world-madagascar-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
-Malawi;MW;;Lilongwe;"<img src=""world-malawi-flag.svg"" />";"<img src=""world-malawi-map.png"" />";"<img src=""reg-10.png"" />";Africa UN
+Malawi;MW;;Lilongwe;"<img src=""world-malawi-flag.svg"" />";"<img src=""world-malawi-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
 Malaysia;MY;;Kuala Lumpur;"<img src=""world-malaysia-flag.svg"" />";"<img src=""world-malaysia-map.png"" />";"<img src=""reg-10.png"" />";East_Asia UN
-Maldives;MV;;Malé;"<img src=""world-maldives-flag.svg"" />";"<img src=""world-maldives-map.png"" />";"<img src=""reg-3.png"" />";East_Asia UN
-Mali;ML;;Bamako;"<img src=""world-mali-flag.svg"" />";"<img src=""world-mali-map.png"" />";"<img src=""reg-2.png"" />";Africa UN
-Malta;MT;;Valletta;"<img src=""world-malta-flag.svg"" />";"<img src=""world-malta-map.png"" />";"<img src=""reg-5.png"" />";Europe UN
-Marshall Islands;MH;;Majuro;"<img src=""world-marshall_islands-flag.svg"" />";"<img src=""world-marshall_islands-map.png"" />";"<img src=""reg-3.png"" />";Oceania UN
-Mauritania;MR;;Nouakchott;"<img src=""world-mauritania-flag.svg"" />";"<img src=""world-mauritania-map.png"" />";"<img src=""reg-19.png"" />";Africa UN
-Mauritius;MU;;Port Louis;"<img src=""world-mauritius-flag.svg"" />";"<img src=""world-mauritius-map.png"" />";"<img src=""reg-12.png"" />";Africa UN
-Mexico;MX;;Mexico City;"<img src=""world-mexico-flag.svg"" />";"<img src=""world-mexico-map.png"" />";"<img src=""reg-5.png"" />";North_America UN
-Micronesia, Federated States of;FM;an independent sovereign island nation and a United States associated state;Palikir;"<img src=""world-micronesia,_federated_states_of-flag.svg"" />";"<img src=""world-micronesia,_federated_states_of-map.png"" />";"<img src=""reg-2.png"" />";Oceania UN
-Moldova;MD;;Chișinău;"<img src=""world-moldova-flag.svg"" />";"<img src=""world-moldova-map.png"" />";"<img src=""reg-6.png"" />";Europe UN
-Monaco;MC;;Monaco;"<img src=""world-monaco-flag.svg"" />";"<img src=""world-monaco-map.png"" />";"<img src=""reg-10.png"" />";Europe UN
-Mongolia;MN;;Ulan Bator;"<img src=""world-mongolia-flag.svg"" />";"<img src=""world-mongolia-map.png"" />";"<img src=""reg-2.png"" />";East_Asia UN
-Montenegro;ME;;Podgorica;"<img src=""world-montenegro-flag.svg"" />";"<img src=""world-montenegro-map.png"" />";"<img src=""reg-9.png"" />";Europe UN
-Montserrat;MS;a British Overseas Territory;Plymouth;"<img src=""world-montserrat-flag.svg"" />";"<img src=""world-montserrat-map.png"" />";"<img src=""reg-3.png"" />";Central_America
+Maldives;MV;;Malé;"<img src=""world-maldives-flag.svg"" />";"<img src=""world-maldives-map.png"" />";"<img src=""reg-10.png"" />";East_Asia UN
+Mali;ML;;Bamako;"<img src=""world-mali-flag.svg"" />";"<img src=""world-mali-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+Malta;MT;;Valletta;"<img src=""world-malta-flag.svg"" />";"<img src=""world-malta-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+Marshall Islands;MH;;Majuro;"<img src=""world-marshall_islands-flag.svg"" />";"<img src=""world-marshall_islands-map.png"" />";"<img src=""reg-5.png"" />";Oceania UN
+Mauritania;MR;;Nouakchott;"<img src=""world-mauritania-flag.svg"" />";"<img src=""world-mauritania-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+Mauritius;MU;;Port Louis;"<img src=""world-mauritius-flag.svg"" />";"<img src=""world-mauritius-map.png"" />";"<img src=""reg-19.png"" />";Africa UN
+Mexico;MX;;Mexico City;"<img src=""world-mexico-flag.svg"" />";"<img src=""world-mexico-map.png"" />";"<img src=""reg-12.png"" />";North_America UN
+Micronesia, Federated States of;FM;an independent sovereign island nation and a United States associated state;Palikir;"<img src=""world-micronesia,_federated_states_of-flag.svg"" />";"<img src=""world-micronesia,_federated_states_of-map.png"" />";"<img src=""reg-5.png"" />";Oceania UN
+Moldova;MD;;Chișinău;"<img src=""world-moldova-flag.svg"" />";"<img src=""world-moldova-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+Monaco;MC;;Monaco;"<img src=""world-monaco-flag.svg"" />";"<img src=""world-monaco-map.png"" />";"<img src=""reg-6.png"" />";Europe UN
+Mongolia;MN;;Ulan Bator;"<img src=""world-mongolia-flag.svg"" />";"<img src=""world-mongolia-map.png"" />";"<img src=""reg-10.png"" />";East_Asia UN
+Montenegro;ME;;Podgorica;"<img src=""world-montenegro-flag.svg"" />";"<img src=""world-montenegro-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+Montserrat;MS;a British Overseas Territory;Plymouth;"<img src=""world-montserrat-flag.svg"" />";"<img src=""world-montserrat-map.png"" />";"<img src=""reg-9.png"" />";Central_America
 Morocco;MA;;Rabat;"<img src=""world-morocco-flag.svg"" />";"<img src=""world-morocco-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
-Mozambique;MZ;;Maputo;"<img src=""world-mozambique-flag.svg"" />";"<img src=""world-mozambique-map.png"" />";"<img src=""reg-10.png"" />";Africa UN
-Myanmar;MM;aka Burma;Naypyidaw;"<img src=""world-myanmar-flag.svg"" />";"<img src=""world-myanmar-map.png"" />";"<img src=""reg-3.png"" />";East_Asia UN
-Namibia;NA;;Windhoek;"<img src=""world-namibia-flag.svg"" />";"<img src=""world-namibia-map.png"" />";"<img src=""reg-5.png"" />";Africa UN
-Nauru;NR;;Yaren;"<img src=""world-nauru-flag.svg"" />";"<img src=""world-nauru-map.png"" />";"<img src=""reg-10.png"" />";Oceania UN
-Nepal;NP;;Kathmandu;"<img src=""world-nepal-flag.svg"" />";"<img src=""world-nepal-map.png"" />";"<img src=""reg-2.png"" />";East_Asia UN
-Netherlands;NL;;Amsterdam;"<img src=""world-netherlands-flag.svg"" />";"<img src=""world-netherlands-map.png"" />";"<img src=""reg-5.png"" />";Europe UN
+Mozambique;MZ;;Maputo;"<img src=""world-mozambique-flag.svg"" />";"<img src=""world-mozambique-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+Myanmar;MM;aka Burma;Naypyidaw;"<img src=""world-myanmar-flag.svg"" />";"<img src=""world-myanmar-map.png"" />";"<img src=""reg-10.png"" />";East_Asia UN
+Namibia;NA;;Windhoek;"<img src=""world-namibia-flag.svg"" />";"<img src=""world-namibia-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+Nauru;NR;;Yaren;"<img src=""world-nauru-flag.svg"" />";"<img src=""world-nauru-map.png"" />";"<img src=""reg-5.png"" />";Oceania UN
+Nepal;NP;;Kathmandu;"<img src=""world-nepal-flag.svg"" />";"<img src=""world-nepal-map.png"" />";"<img src=""reg-10.png"" />";East_Asia UN
+Netherlands;NL;;Amsterdam;"<img src=""world-netherlands-flag.svg"" />";"<img src=""world-netherlands-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
 New Caledonia;NC;a French territory;Nouméa;"<img src=""world-new_caledonia-flag.svg"" />";"<img src=""world-new_caledonia-map.png"" />";"<img src=""reg-5.png"" />";Oceania
-New Zealand;NZ;;Wellington;"<img src=""world-new_zealand-flag.svg"" />";"<img src=""world-new_zealand-map.png"" />";"<img src=""reg-9.png"" />";Oceania UN
-Nicaragua;NI;;Managua;"<img src=""world-nicaragua-flag.svg"" />";"<img src=""world-nicaragua-map.png"" />";"<img src=""reg-3.png"" />";Central_America UN
+New Zealand;NZ;;Wellington;"<img src=""world-new_zealand-flag.svg"" />";"<img src=""world-new_zealand-map.png"" />";"<img src=""reg-5.png"" />";Oceania UN
+Nicaragua;NI;;Managua;"<img src=""world-nicaragua-flag.svg"" />";"<img src=""world-nicaragua-map.png"" />";"<img src=""reg-9.png"" />";Central_America UN
 Niger;NE;;Niamey;"<img src=""world-niger-flag.svg"" />";"<img src=""world-niger-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
-Nigeria;NG;;Abuja;"<img src=""world-nigeria-flag.svg"" />";"<img src=""world-nigeria-map.png"" />";"<img src=""reg-5.png"" />";Africa UN
+Nigeria;NG;;Abuja;"<img src=""world-nigeria-flag.svg"" />";"<img src=""world-nigeria-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
 Niue;NU;self-governing state in free association with New Zealand;Alofi;"<img src=""world-niue-flag.svg"" />";"<img src=""world-niue-map.png"" />";"<img src=""reg-5.png"" />";Oceania
-Norfolk Island;NF;an external territory of Australia;Kingston;"<img src=""world-norfolk_island-flag.svg"" />";"<img src=""world-norfolk_island-map.png"" />";"<img src=""reg-2.png"" />";Oceania
-Northern Mariana Islands;MP;an insular area and commonwealth of the United States;Saipan;"<img src=""world-northern_mariana_islands-flag.svg"" />";"<img src=""world-northern_mariana_islands-map.png"" />";"<img src=""reg-20.png"" />";Oceania
+Norfolk Island;NF;an external territory of Australia;Kingston;"<img src=""world-norfolk_island-flag.svg"" />";"<img src=""world-norfolk_island-map.png"" />";"<img src=""reg-5.png"" />";Oceania
 Northern Ireland;GB-NIR;Country in UK;Belfast;"<img src=""world-northern_ireland-flag.svg"" />";"<img src=""world-northern_ireland-map.png"" />";"<img src=""reg-2.png"" />";Europe
-Norway;NO;;Oslo;"<img src=""world-norway-flag.svg"" />";"<img src=""world-norway-map.png"" />";"<img src=""reg-1.png"" />";Europe UN
+Northern Mariana Islands;MP;an insular area and commonwealth of the United States;Saipan;"<img src=""world-northern_mariana_islands-flag.svg"" />";"<img src=""world-northern_mariana_islands-map.png"" />";"<img src=""reg-20.png"" />";Oceania
+Norway;NO;;Oslo;"<img src=""world-norway-flag.svg"" />";"<img src=""world-norway-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
 Oman;OM;;Muscat;"<img src=""world-oman-flag.svg"" />";"<img src=""world-oman-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
-Pakistan;PK;;Islamabad;"<img src=""world-pakistan-flag.svg"" />";"<img src=""world-pakistan-map.png"" />";"<img src=""reg-5.png"" />";West_Asia UN
-Palau;PW;;Ngerulmud;"<img src=""world-palau-flag.svg"" />";"<img src=""world-palau-map.png"" />";"<img src=""reg-1.png"" />";Oceania UN
-Palestine;PS;a UN General Assembly non-member observer;Ramallah;"<img src=""world-palestine-flag.svg"" />";"<img src=""world-palestine-map.png"" />";"<img src=""reg-9.png"" />";West_Asia UN
-Panama;PA;;Panama City;"<img src=""world-panama-flag.svg"" />";"<img src=""world-panama-map.png"" />";"<img src=""reg-5.png"" />";Central_America UN
-Papua New Guinea;PG;;Port Moresby;"<img src=""world-papua_new_guinea-flag.svg"" />";"<img src=""world-papua_new_guinea-map.png"" />";"<img src=""reg-8.png"" />";East_Asia UN
+Pakistan;PK;;Islamabad;"<img src=""world-pakistan-flag.svg"" />";"<img src=""world-pakistan-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
+Palau;PW;;Ngerulmud;"<img src=""world-palau-flag.svg"" />";"<img src=""world-palau-map.png"" />";"<img src=""reg-5.png"" />";Oceania UN
+Palestine;PS;a UN General Assembly non-member observer;Ramallah;"<img src=""world-palestine-flag.svg"" />";"<img src=""world-palestine-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
+Panama;PA;;Panama City;"<img src=""world-panama-flag.svg"" />";"<img src=""world-panama-map.png"" />";"<img src=""reg-9.png"" />";Central_America UN
+Papua New Guinea;PG;;Port Moresby;"<img src=""world-papua_new_guinea-flag.svg"" />";"<img src=""world-papua_new_guinea-map.png"" />";"<img src=""reg-5.png"" />";East_Asia UN
 Paraguay;PY;;Asunción;"<img src=""world-paraguay-flag.svg"" />";"<img src=""world-paraguay-map.png"" />";"<img src=""reg-8.png"" />";South_America UN
-Peru;PE;;Lima;"<img src=""world-peru-flag.svg"" />";"<img src=""world-peru-map.png"" />";"<img src=""reg-10.png"" />";South_America UN
-Philippines;PH;;Manila;"<img src=""world-philippines-flag.svg"" />";"<img src=""world-philippines-map.png"" />";"<img src=""reg-13.png"" />";East_Asia UN
-Pitcairn Islands;PN;four islands of the British Overseas Territory in the Pacific;Adamstown;"<img src=""world-pitcairn_islands-flag.svg"" />";"<img src=""world-pitcairn_islands-map.png"" />";"<img src=""reg-2.png"" />";Oceania
+Peru;PE;;Lima;"<img src=""world-peru-flag.svg"" />";"<img src=""world-peru-map.png"" />";"<img src=""reg-8.png"" />";South_America UN
+Philippines;PH;;Manila;"<img src=""world-philippines-flag.svg"" />";"<img src=""world-philippines-map.png"" />";"<img src=""reg-10.png"" />";East_Asia UN
+Pitcairn Islands;PN;four islands of the British Overseas Territory in the Pacific;Adamstown;"<img src=""world-pitcairn_islands-flag.svg"" />";"<img src=""world-pitcairn_islands-map.png"" />";"<img src=""reg-13.png"" />";Oceania
 Poland;PL;;Warsaw;"<img src=""world-poland-flag.svg"" />";"<img src=""world-poland-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
-Portugal;PT;;Lisbon;"<img src=""world-portugal-flag.svg"" />";"<img src=""world-portugal-map.png"" />";"<img src=""reg-9.png"" />";Europe UN
-Puerto Rico;PR;an unincorporated territory of the United States;San Juan;"<img src=""world-puerto_rico-flag.svg"" />";"<img src=""world-puerto_rico-map.png"" />";"<img src=""reg-1.png"" />";Central_America
-Qatar;QA;;Doha;"<img src=""world-qatar-flag.svg"" />";"<img src=""world-qatar-map.png"" />";"<img src=""reg-2.png"" />";West_Asia UN
-Romania;RO;;Bucharest;"<img src=""world-romania-flag.svg"" />";"<img src=""world-romania-map.png"" />";"<img src=""reg-21.png"" />";Europe UN
-Russia;RU;;Moscow;"<img src=""world-russia-flag.svg"" />";"<img src=""world-russia-map.png"" />";"<img src=""reg-3.png"" />";Russia UN
-Rwanda;RW;;Kigali;"<img src=""world-rwanda-flag.svg"" />";"<img src=""world-rwanda-map.png"" />";"<img src=""reg-9.png"" />";Africa UN
+Portugal;PT;;Lisbon;"<img src=""world-portugal-flag.svg"" />";"<img src=""world-portugal-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+Puerto Rico;PR;an unincorporated territory of the United States;San Juan;"<img src=""world-puerto_rico-flag.svg"" />";"<img src=""world-puerto_rico-map.png"" />";"<img src=""reg-9.png"" />";Central_America
+Qatar;QA;;Doha;"<img src=""world-qatar-flag.svg"" />";"<img src=""world-qatar-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
+Romania;RO;;Bucharest;"<img src=""world-romania-flag.svg"" />";"<img src=""world-romania-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+Russia;RU;;Moscow;"<img src=""world-russia-flag.svg"" />";"<img src=""world-russia-map.png"" />";"<img src=""reg-21.png"" />";Russia UN
+Rwanda;RW;;Kigali;"<img src=""world-rwanda-flag.svg"" />";"<img src=""world-rwanda-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
 Saint Barthélemy;BL;overseas collectivity of France;Gustavia;"<img src=""world-saint_barthélemy-flag.svg"" />";"<img src=""world-saint_barthélemy-map.png"" />";"<img src=""reg-9.png"" />";Central_America
 Saint Kitts and Nevis;KN;;Basseterre;"<img src=""world-saint_kitts_and_nevis-flag.svg"" />";"<img src=""world-saint_kitts_and_nevis-map.png"" />";"<img src=""reg-9.png"" />";Central_America UN
 Saint Lucia;LC;;Castries;"<img src=""world-saint_lucia-flag.svg"" />";"<img src=""world-saint_lucia-map.png"" />";"<img src=""reg-9.png"" />";Central_America UN
-Saint Vincent and the Grenadines;VC;;Kingstown;"<img src=""world-saint_vincent_and_the_grenadines-flag.svg"" />";"<img src=""world-saint_vincent_and_the_grenadines-map.png"" />";"<img src=""reg-5.png"" />";Central_America UN
-Samoa;WS;;Apia;"<img src=""world-samoa-flag.svg"" />";"<img src=""world-samoa-map.png"" />";"<img src=""reg-6.png"" />";Oceania UN
-San Marino;SM;;City of San Marino;"<img src=""world-san_marino-flag.svg"" />";"<img src=""world-san_marino-map.png"" />";"<img src=""reg-1.png"" />";Europe UN
-Saudi Arabia;SA;;Riyadh;"<img src=""world-saudi_arabia-flag.svg"" />";"<img src=""world-saudi_arabia-map.png"" />";"<img src=""reg-2.png"" />";West_Asia UN
-Scotland;GB-SCT;Country in UK;Edinburgh;"<img src=""world-scotland-flag.svg"" />";"<img src=""world-scotland-map.png"" />";"<img src=""reg-3.png"" />";Europe
-Senegal;SN;;Dakar;"<img src=""world-senegal-flag.svg"" />";"<img src=""world-senegal-map.png"" />";"<img src=""reg-2.png"" />";Africa UN
-Serbia;RS;;Belgrade;"<img src=""world-serbia-flag.svg"" />";"<img src=""world-serbia-map.png"" />";"<img src=""reg-19.png"" />";Europe UN
-Seychelles;SC;;Victoria;"<img src=""world-seychelles-flag.svg"" />";"<img src=""world-seychelles-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
-Sierra Leone;SL;;Freetown;"<img src=""world-sierra_leone-flag.svg"" />";"<img src=""world-sierra_leone-map.png"" />";"<img src=""reg-22.png"" />";Africa UN
-Singapore;SG;;Singapore;"<img src=""world-singapore-flag.svg"" />";"<img src=""world-singapore-map.png"" />";"<img src=""reg-9.png"" />";East_Asia UN
-Sint Maarten;SX;island country of Netherlands;Philipsburg;"<img src=""world-sint_maarten-flag.svg"" />";"<img src=""world-sint_maarten-map.png"" />";"<img src=""reg-2.png"" />";Central_America
+Saint Vincent and the Grenadines;VC;;Kingstown;"<img src=""world-saint_vincent_and_the_grenadines-flag.svg"" />";"<img src=""world-saint_vincent_and_the_grenadines-map.png"" />";"<img src=""reg-9.png"" />";Central_America UN
+Samoa;WS;;Apia;"<img src=""world-samoa-flag.svg"" />";"<img src=""world-samoa-map.png"" />";"<img src=""reg-5.png"" />";Oceania UN
+San Marino;SM;;City of San Marino;"<img src=""world-san_marino-flag.svg"" />";"<img src=""world-san_marino-map.png"" />";"<img src=""reg-6.png"" />";Europe UN
+Saudi Arabia;SA;;Riyadh;"<img src=""world-saudi_arabia-flag.svg"" />";"<img src=""world-saudi_arabia-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
+Scotland;GB-SCT;Country in UK;Edinburgh;"<img src=""world-scotland-flag.svg"" />";"<img src=""world-scotland-map.png"" />";"<img src=""reg-2.png"" />";Europe
+Senegal;SN;;Dakar;"<img src=""world-senegal-flag.svg"" />";"<img src=""world-senegal-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+Serbia;RS;;Belgrade;"<img src=""world-serbia-flag.svg"" />";"<img src=""world-serbia-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+Seychelles;SC;;Victoria;"<img src=""world-seychelles-flag.svg"" />";"<img src=""world-seychelles-map.png"" />";"<img src=""reg-19.png"" />";Africa UN
+Sierra Leone;SL;;Freetown;"<img src=""world-sierra_leone-flag.svg"" />";"<img src=""world-sierra_leone-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+Singapore;SG;;Singapore;"<img src=""world-singapore-flag.svg"" />";"<img src=""world-singapore-map.png"" />";"<img src=""reg-22.png"" />";East_Asia UN
+Sint Maarten;SX;island country of Netherlands;Philipsburg;"<img src=""world-sint_maarten-flag.svg"" />";"<img src=""world-sint_maarten-map.png"" />";"<img src=""reg-9.png"" />";Central_America
 Slovakia;SK;;Bratislava;"<img src=""world-slovakia-flag.svg"" />";"<img src=""world-slovakia-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
-Slovenia;SI;;Ljubljana;"<img src=""world-slovenia-flag.svg"" />";"<img src=""world-slovenia-map.png"" />";"<img src=""reg-5.png"" />";Europe UN
-Solomon Islands;SB;;Honiara;"<img src=""world-solomon_islands-flag.svg"" />";"<img src=""world-solomon_islands-map.png"" />";"<img src=""reg-3.png"" />";Oceania UN
+Slovenia;SI;;Ljubljana;"<img src=""world-slovenia-flag.svg"" />";"<img src=""world-slovenia-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+Solomon Islands;SB;;Honiara;"<img src=""world-solomon_islands-flag.svg"" />";"<img src=""world-solomon_islands-map.png"" />";"<img src=""reg-5.png"" />";Oceania UN
 Somalia;SO;;Mogadishu;"<img src=""world-somalia-flag.svg"" />";"<img src=""world-somalia-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
-South Africa;ZA;;Pretoria;"<img src=""world-south_africa-flag.svg"" />";"<img src=""world-south_africa-map.png"" />";"<img src=""reg-23.png"" />";Africa UN
-South Georgia and the South Sandwich Islands;GS;a British overseas territory;King Edward Point;"<img src=""world-south_georgia_and_the_south_sandwich_islands-flag.svg"" />";"<img src=""world-south_georgia_and_the_south_sandwich_islands-map.png"" />";"<img src=""reg-3.png"" />";South_America
-South Sudan;SS;;Juba;"<img src=""world-south_sudan-flag.svg"" />";"<img src=""world-south_sudan-map.png"" />";"<img src=""reg-2.png"" />";Africa UN
-Spain;ES;;Madrid;"<img src=""world-spain-flag.svg"" />";"<img src=""world-spain-map.png"" />";"<img src=""reg-10.png"" />";Europe UN
-Sri Lanka;LK;;Sri Jayawardenapura Kotte;"<img src=""world-sri_lanka-flag.svg"" />";"<img src=""world-sri_lanka-map.png"" />";"<img src=""reg-3.png"" />";East_Asia UN
-Sudan;SD;;Khartoum;"<img src=""world-sudan-flag.svg"" />";"<img src=""world-sudan-map.png"" />";"<img src=""reg-8.png"" />";Africa UN
-Suriname;SR;;Paramaribo;"<img src=""world-suriname-flag.svg"" />";"<img src=""world-suriname-map.png"" />";"<img src=""reg-3.png"" />";South_America UN
-Eswatini;SZ;Name was changed from Swaziland on 19 April 2018;Lobamba;"<img src=""world-swaziland-flag.svg"" />";"<img src=""world-swaziland-map.png"" />";"<img src=""reg-2.png"" />";Africa UN
+South Africa;ZA;;Pretoria;"<img src=""world-south_africa-flag.svg"" />";"<img src=""world-south_africa-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+South Georgia and the South Sandwich Islands;GS;a British overseas territory;King Edward Point;"<img src=""world-south_georgia_and_the_south_sandwich_islands-flag.svg"" />";"<img src=""world-south_georgia_and_the_south_sandwich_islands-map.png"" />";"<img src=""reg-23.png"" />";South_America
+South Sudan;SS;;Juba;"<img src=""world-south_sudan-flag.svg"" />";"<img src=""world-south_sudan-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+Spain;ES;;Madrid;"<img src=""world-spain-flag.svg"" />";"<img src=""world-spain-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+Sri Lanka;LK;;Sri Jayawardenapura Kotte;"<img src=""world-sri_lanka-flag.svg"" />";"<img src=""world-sri_lanka-map.png"" />";"<img src=""reg-10.png"" />";East_Asia UN
+Sudan;SD;;Khartoum;"<img src=""world-sudan-flag.svg"" />";"<img src=""world-sudan-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+Suriname;SR;;Paramaribo;"<img src=""world-suriname-flag.svg"" />";"<img src=""world-suriname-map.png"" />";"<img src=""reg-8.png"" />";South_America UN
+Eswatini;SZ;Name was changed from Swaziland on 19 April 2018;Lobamba;"<img src=""world-eswatini-flag.svg"" />";"<img src=""world-eswatini-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
 Sweden;SE;;Stockholm;"<img src=""world-sweden-flag.svg"" />";"<img src=""world-sweden-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
-Switzerland;CH;;Bern;"<img src=""world-switzerland-flag.svg"" />";"<img src=""world-switzerland-map.png"" />";"<img src=""reg-1.png"" />";Europe UN
-Syria;SY;;Damascus;"<img src=""world-syria-flag.svg"" />";"<img src=""world-syria-map.png"" />";"<img src=""reg-3.png"" />";West_Asia UN
-São Tomé and Príncipe;ST;;São Tomé;"<img src=""world-são_tomé_and_príncipe-flag.svg"" />";"<img src=""world-são_tomé_and_príncipe-map.png"" />";"<img src=""reg-10.png"" />";Africa UN
-Taiwan;TW;officially the Republic of China;Taipei;"<img src=""world-taiwan-flag.svg"" />";"<img src=""world-taiwan-map.png"" />";"<img src=""reg-1.png"" />";East_Asia
-Tajikistan;TJ;;Dushanbe;"<img src=""world-tajikistan-flag.svg"" />";"<img src=""world-tajikistan-map.png"" />";"<img src=""reg-3.png"" />";West_Asia UN
-Tanzania;TZ;;Dodoma;"<img src=""world-tanzania-flag.svg"" />";"<img src=""world-tanzania-map.png"" />";"<img src=""reg-10.png"" />";Africa UN
+Switzerland;CH;;Bern;"<img src=""world-switzerland-flag.svg"" />";"<img src=""world-switzerland-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+Syria;SY;;Damascus;"<img src=""world-syria-flag.svg"" />";"<img src=""world-syria-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
+São Tomé and Príncipe;ST;;São Tomé;"<img src=""world-são_tomé_and_príncipe-flag.svg"" />";"<img src=""world-são_tomé_and_príncipe-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+Taiwan;TW;officially the Republic of China;Taipei;"<img src=""world-taiwan-flag.svg"" />";"<img src=""world-taiwan-map.png"" />";"<img src=""reg-10.png"" />";East_Asia
+Tajikistan;TJ;;Dushanbe;"<img src=""world-tajikistan-flag.svg"" />";"<img src=""world-tajikistan-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
+Tanzania;TZ;;Dodoma;"<img src=""world-tanzania-flag.svg"" />";"<img src=""world-tanzania-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
 Thailand;TH;;Bangkok;"<img src=""world-thailand-flag.svg"" />";"<img src=""world-thailand-map.png"" />";"<img src=""reg-10.png"" />";East_Asia UN
-Timor-Leste;TL;aka East Timor;Dili;"<img src=""world-timor-leste-flag.svg"" />";"<img src=""world-timor-leste-map.png"" />";"<img src=""reg-3.png"" />";East_Asia UN
-Togo;TG;;Lomé;"<img src=""world-togo-flag.svg"" />";"<img src=""world-togo-map.png"" />";"<img src=""reg-5.png"" />";Africa UN
-Tonga;TO;;Nukuʻalofa;"<img src=""world-tonga-flag.svg"" />";"<img src=""world-tonga-map.png"" />";"<img src=""reg-9.png"" />";Oceania UN
-Trinidad and Tobago;TT;;Port of Spain;"<img src=""world-trinidad_and_tobago-flag.svg"" />";"<img src=""world-trinidad_and_tobago-map.png"" />";"<img src=""reg-3.png"" />";Central_America UN
-Tunisia;TN;;Tunis;"<img src=""world-tunisia-flag.svg"" />";"<img src=""world-tunisia-map.png"" />";"<img src=""reg-2.png"" />";Africa UN
-Turkey;TR;;Ankara;"<img src=""world-turkey-flag.svg"" />";"<img src=""world-turkey-map.png"" />";"<img src=""reg-1.png"" />";Europe UN
-Turkmenistan;TM;;Ashgabat;"<img src=""world-turkmenistan-flag.svg"" />";"<img src=""world-turkmenistan-map.png"" />";"<img src=""reg-9.png"" />";West_Asia UN
-Turks and Caicos Islands;TC;a British Overseas Territory;Cockburn Town;"<img src=""world-turks_and_caicos_islands-flag.svg"" />";"<img src=""world-turks_and_caicos_islands-map.png"" />";"<img src=""reg-5.png"" />";Central_America
-Tuvalu;TV;;Funafuti;"<img src=""world-tuvalu-flag.svg"" />";"<img src=""world-tuvalu-map.png"" />";"<img src=""reg-3.png"" />";Oceania UN
-Uganda;UG;;Kampala;"<img src=""world-uganda-flag.svg"" />";"<img src=""world-uganda-map.png"" />";"<img src=""reg-2.png"" />";Africa UN
-Ukraine;UA;;Kiev;"<img src=""world-ukraine-flag.svg"" />";"<img src=""world-ukraine-map.png"" />";"<img src=""reg-1.png"" />";Europe UN
-United Arab Emirates;AE;;Abu Dhabi;"<img src=""world-united_arab_emirates-flag.svg"" />";"<img src=""world-united_arab_emirates-map.png"" />";"<img src=""reg-2.png"" />";West_Asia UN
-United Kingdom of Great Britain and Northern Ireland;GB;;London;"<img src=""world-united_kingdom_of_great_britain_and_northern_ireland-flag.svg"" />";"<img src=""world-united_kingdom_of_great_britain_and_northern_ireland-map.png"" />";"<img src=""reg-24.png"" />";Europe UN
-United States of America;US;;Washington, D.C.;"<img src=""world-united_states_of_america-flag.svg"" />";"<img src=""world-united_states_of_america-map.png"" />";"<img src=""reg-8.png"" />";North_America UN
-Uruguay;UY;;Montevideo;"<img src=""world-uruguay-flag.svg"" />";"<img src=""world-uruguay-map.png"" />";"<img src=""reg-1.png"" />";South_America UN
-Uzbekistan;UZ;;Tashkent;"<img src=""world-uzbekistan-flag.svg"" />";"<img src=""world-uzbekistan-map.png"" />";"<img src=""reg-5.png"" />";West_Asia UN
-Vanuatu;VU;;Port Vila;"<img src=""world-vanuatu-flag.svg"" />";"<img src=""world-vanuatu-map.png"" />";"<img src=""reg-6.png"" />";Oceania UN
+Timor-Leste;TL;aka East Timor;Dili;"<img src=""world-timor-leste-flag.svg"" />";"<img src=""world-timor-leste-map.png"" />";"<img src=""reg-10.png"" />";East_Asia UN
+Togo;TG;;Lomé;"<img src=""world-togo-flag.svg"" />";"<img src=""world-togo-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+Tonga;TO;;Nukuʻalofa;"<img src=""world-tonga-flag.svg"" />";"<img src=""world-tonga-map.png"" />";"<img src=""reg-5.png"" />";Oceania UN
+Trinidad and Tobago;TT;;Port of Spain;"<img src=""world-trinidad_and_tobago-flag.svg"" />";"<img src=""world-trinidad_and_tobago-map.png"" />";"<img src=""reg-9.png"" />";Central_America UN
+Tunisia;TN;;Tunis;"<img src=""world-tunisia-flag.svg"" />";"<img src=""world-tunisia-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+Turkey;TR;;Ankara;"<img src=""world-turkey-flag.svg"" />";"<img src=""world-turkey-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+Turkmenistan;TM;;Ashgabat;"<img src=""world-turkmenistan-flag.svg"" />";"<img src=""world-turkmenistan-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
+Turks and Caicos Islands;TC;a British Overseas Territory;Cockburn Town;"<img src=""world-turks_and_caicos_islands-flag.svg"" />";"<img src=""world-turks_and_caicos_islands-map.png"" />";"<img src=""reg-9.png"" />";Central_America
+Tuvalu;TV;;Funafuti;"<img src=""world-tuvalu-flag.svg"" />";"<img src=""world-tuvalu-map.png"" />";"<img src=""reg-5.png"" />";Oceania UN
+Uganda;UG;;Kampala;"<img src=""world-uganda-flag.svg"" />";"<img src=""world-uganda-map.png"" />";"<img src=""reg-3.png"" />";Africa UN
+Ukraine;UA;;Kiev;"<img src=""world-ukraine-flag.svg"" />";"<img src=""world-ukraine-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+United Arab Emirates;AE;;Abu Dhabi;"<img src=""world-united_arab_emirates-flag.svg"" />";"<img src=""world-united_arab_emirates-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
+United Kingdom;GB;;London;"<img src=""world-united_kingdom-flag.svg"" />";"<img src=""world-united_kingdom-map.png"" />";"<img src=""reg-2.png"" />";Europe UN
+United States of America;US;;Washington, D.C.;"<img src=""world-united_states_of_america-flag.svg"" />";"<img src=""world-united_states_of_america-map.png"" />";"<img src=""reg-24.png"" />";North_America UN
+Uruguay;UY;;Montevideo;"<img src=""world-uruguay-flag.svg"" />";"<img src=""world-uruguay-map.png"" />";"<img src=""reg-8.png"" />";South_America UN
+Uzbekistan;UZ;;Tashkent;"<img src=""world-uzbekistan-flag.svg"" />";"<img src=""world-uzbekistan-map.png"" />";"<img src=""reg-1.png"" />";West_Asia UN
+Vanuatu;VU;;Port Vila;"<img src=""world-vanuatu-flag.svg"" />";"<img src=""world-vanuatu-map.png"" />";"<img src=""reg-5.png"" />";Oceania UN
+Vatican City;VA;a UN General Assembly non-member observer;Vatican City;"<img src=""world-vatican_city-flag.svg"" />";"<img src=""world-vatican_city-map.png"" />";"<img src=""reg-6.png"" />";Europe UN
 Venezuela;VE;;Caracas;"<img src=""world-venezuela-flag.svg"" />";"<img src=""world-venezuela-map.png"" />";"<img src=""reg-8.png"" />";South_America UN
 Vietnam;VN;;Hanoi;"<img src=""world-vietnam-flag.svg"" />";"<img src=""world-vietnam-map.png"" />";"<img src=""reg-10.png"" />";East_Asia UN
 Virgin Islands, British;VG;a British Overseas Territory;Road Town;"<img src=""world-virgin_islands,_british-flag.svg"" />";"<img src=""world-virgin_islands,_british-map.png"" />";"<img src=""reg-9.png"" />";Central_America

@@ -9,12 +9,17 @@ and flags of countries and territories of the world.
 - Async generation of map images
 - Added region maps without the country highlighted, to allow finding the country in the given map.
 - Added UN tag, to be used with filter decks
-- Updated new country names
+- Updated country names
+    - The Bahamas, Ivory Coast, The Gambia, North Macedonia, Eswatini (Swaziland)
 - Added more descriptions
 - Removed duplicate notes, instead separating card types in separate decks
-- Bold country names
+- Bold country names on anki ccards
+
+
 ### 1.5
 - More accuate UK borders between Scotland and Wales
+- Updated flags
+- Updated files to match country names
 ## Install into Anki
 
 The easiest way to get this into Anki is to open the .apkg file. This is a
@@ -50,7 +55,7 @@ domain and are stored in the directory media/flags in this repository.
 
 ## Maps
 
-The maps are generated from a SVG file of the world, with a viewBox centered in
+The maps are generated from a SVG file of the world [(original file)](https://commons.wikimedia.org/wiki/File:BlankMap-World.svg), with a viewBox centered in
 the appropriate area and the countries "highlighted" appropriately. There are
 classes attached the country paths in the SVG file that can have a fill applied
 to them.
