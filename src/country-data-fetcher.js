@@ -222,7 +222,9 @@ function writePopulation(data){
         for (const m of popFormatted.matchAll(/\d+/g)){
             popFormatted = popFormatted.replace(m[0], shortenNumber(m[0]))
         }
-        return [c.sortName, c.commonName ?? c.name, c.conventionalLongName ,p.population.match(/\d+/)[0], `"${popFormatted}"`,  `(${p.year} ${p.type})`]
+        let commonName = c.commonName ?? c.name
+        let longName = (c.conventionalLongName !== commonName) ? c.conventionalLongName : c.linkingName
+        return [c.sortName, commonName , longName ,p.population.match(/\d+/)[0], `"${popFormatted}"`,  `(${p.year} ${p.type})`]
     })
 
     pop.splice(0, 0, header);
