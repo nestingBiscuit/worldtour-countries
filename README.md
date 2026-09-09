@@ -21,6 +21,10 @@ and flags of countries and territories of the world.
 - Updated flags
 - Updated files to match country names
 - Added population data (no Anki card)
+- Updated capitals
+- Added administrative capitals (no Anki card)
+- Added largest city (no Anki card)
+- Added country, dependency and settlement tag from wikipedia infobox.
 ## Install into Anki
 
 The easiest way to get this into Anki is to open the .apkg file. This is a

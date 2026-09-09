@@ -236,9 +236,25 @@ function wirteStatus(data){
     var status = data.map(c =>{
         return [c.sortName, c.infoboxType ?? "", c.type ?? "", c.status ?? "", c.subdivisionName ?? c.subdivisionName1, c.subdivisionType ?? c.subdivisionType1]
     })
-
     status.splice(0, 0, header);
     fs.writeFileSync('./data/status.csv' , csv.stringify(status))
+}
+
+function writeCapitals(data){
+    //largestCity largestSettelment
+    // capital adminCenter seat
+        const header = ['name', 'capital', 'adminCenter', "admind type","largest city", ""]
+    var status = data.map(c =>{
+        let capital = c.capital ?? c.seat
+        var largestCity = c.largestCity ?? c.largestSettlement
+        if(largestCity === capital || largestCity === 'capital'){
+            largestCity = capital
+        }
+        return [c.sortName, capital, c.adminCenter ?? "", c.adminCenterType ,largestCity]
+    })
+    status.splice(0, 0, header);
+    fs.writeFileSync('./data/capitals.csv' , csv.stringify(status))
+
 }
 
 async function main(){
@@ -246,14 +262,14 @@ async function main(){
     data = loadAllCountryData()
 
     keys = data.map(d => {
-        return Object.keys(d).filter(key => key.search(/name/i) !== -1)
+        return Object.keys(d).filter(key => key.search(/capital/i) !== -1)
     })
-    console.log(new Set(keys.flat()))
+    console.log(...new Array(new Set(keys.flat())))
 
-    writePopulation(data)
-    wirteStatus(data)
-
-    downloadAllFlags(data, "media/flags/")
+   // writePopulation(data)
+   // writeStatus(data)
+    writeCapitals(data)
+    //downloadAllFlags(data, "media/flags/")
 }
 
 main()
