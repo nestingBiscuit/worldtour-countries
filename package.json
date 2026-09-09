@@ -7,8 +7,10 @@
   },
   "license": "MIT",
   "dependencies": {
+    "csv": "^6.6.3",
     "handlebars": "^4.0.11",
     "pn": "^1.0.0",
-    "sharp": "^0.35.4"
+    "sharp": "^0.35.4",
+    "wikipedia": "^2.5.0"
   }
 }

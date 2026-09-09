@@ -121,5 +121,3 @@ the filename) and the following other option parameters:
  - `vbregion': Specify name of region to use these viewbox settings instead.
  - `viewBox`: Override viewbox attributes (if needed to be different from
    region or vbregion).
-
-

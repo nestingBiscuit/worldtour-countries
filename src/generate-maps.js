@@ -6,6 +6,7 @@ const sharp = require("sharp");
 const MAP_TEMPLATE = 'src/maps/templates/_map-world-template.svg';
 const DEST_DIR_SVG = 'src/maps/';
 const DEST_DIR_PNG = 'media/maps/';
+const DEST_DIR_CSV = 'media/'
 
 const mapdata = require("../src/map-data.json");
  
@@ -54,7 +55,7 @@ function capitalizedCountryName(name){
 }
 
 const regionMaps = new Map();
-const REGION_CSV = DEST_DIR_PNG + 'regions.csv'
+const REGION_CSV = DEST_DIR_CSV + 'regions.csv'
 
 async function renderMap (country, regionOnly = false) {
     var dest_svg_filename = DEST_DIR_SVG + 'world-' + country.name + '-map.svg';
@@ -206,7 +207,7 @@ async function generateAllCountries() {
     }
     await Promise.all(workers);
     // Write map csv
-    const MAP_CSV = DEST_DIR_PNG + "maps.csv"
+    const MAP_CSV = DEST_DIR_CSV + "maps.csv"
     fs.unlink(MAP_CSV, (err) => {
         if (err && err.code !== "ENOENT") throw err;
     });
@@ -217,7 +218,7 @@ async function generateAllCountries() {
             const img_tag = `"<img src=""${dest_png_filename}"" />"`
             console.log(country)
             line = capitalizedCountryName(country.name) + ';' + img_tag + '\n'
-            fs.appendFileSync(DEST_DIR_PNG + "maps.csv", line);
+            fs.appendFileSync(MAP_CSV, line);
             //console.log(line)
             // file written successfully
         } catch (err) {
