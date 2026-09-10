@@ -88,7 +88,7 @@ function splitTopLevelFields(inner) {
 // Templates whose arguments are really a list of items (not metadata).
 // {{unbulleted list|a|b|c}} etc. should become "a, b, c", not disappear.
 const LIST_TEMPLATES = new Set([
-  'unbulleted list', 'ubl', 'plainlist', 'hlist', 'flatlist', 'br separated entries',
+  'unbulleted list', 'unbulleted', 'ubl', 'plainlist', 'hlist', 'flatlist', 'br separated entries',
 ]);
 
 // Templates where you want to keep just the last (displayed) argument.
