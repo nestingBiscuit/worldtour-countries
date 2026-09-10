@@ -185,7 +185,7 @@
         {"name": "palau", "in": "oceania", "code": "pw", "circle": "pw"},
         {"name": "palestine", "in": "west_asia", "code": "ps"},
         {"name": "panama", "in": "central_america", "code": "pa"},
-        {"name": "papua_new_guinea", "in": "east_asia", "vbregion": "oceania", "code": "pg"},
+        {"name": "papua_new_guinea", "in": "oceania", "code": "pg"},
         {"name": "paraguay", "in": "south_america", "code": "py"},
         {"name": "peru", "in": "south_america", "code": "pe"},
         {"name": "philippines", "in": "east_asia", "code": "ph"},
