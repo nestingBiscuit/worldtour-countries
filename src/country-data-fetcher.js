@@ -254,6 +254,16 @@ function writeCapitals(data){
     })
     status.splice(0, 0, header);
     fs.writeFileSync('./data/capitals.csv' , csv.stringify(status))
+}
+function writeLangCurrency(data){
+
+        const header = ['name', 'official lang', 'currency', "currencyCode"]
+    var status = data.map(c =>{
+
+        return [c.sortName, c.officialLanguages ?? c.languages, c.languagesType, c.currency, c.currencyCode]
+    })
+    status.splice(0, 0, header);
+    fs.writeFileSync('./data/lang-and-currency.csv' , csv.stringify(status))
 
 }
 
@@ -262,13 +272,14 @@ async function main(){
     data = loadAllCountryData()
 
     keys = data.map(d => {
-        return Object.keys(d).filter(key => key.search(/capital/i) !== -1)
+        return Object.keys(d).filter(key => key.search(/lang/i) !== -1)
     })
     console.log(...new Array(new Set(keys.flat())))
 
-   // writePopulation(data)
-   // writeStatus(data)
-    writeCapitals(data)
+    // writePopulation(data)
+    // writeStatus(data)
+    // writeCapitals(data)
+    writeLangCurrency(data)
     //downloadAllFlags(data, "media/flags/")
 }
 

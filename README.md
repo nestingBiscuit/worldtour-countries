@@ -17,13 +17,15 @@ and flags of countries and territories of the world.
 
 
 ### 1.5
-- More accuate UK borders between Scotland and Wales
+- More accuate UK borders between England, Scotland and Wales
 - Updated flags
 - Updated files to match country names
 - Added population data (no Anki card)
 - Updated capitals
 - Added administrative capitals (no Anki card)
 - Added largest city (no Anki card)
+- Added official languages
+- Added currency
 - Added country, dependency and settlement tag from wikipedia infobox.
 ## Install into Anki
 
